@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">#ffffff</item>
+        <item name="indicatorColor">#6f8dc5</item>
+    </style>
+
+    <style name="Pager" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">#ffffff</item>
+        <item name="indicatorColor">#6f8dc5</item>
+    </style>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ברכות, הפכת למנהל האפליקציה"
+        android:textColor="@color/orange_FFA836"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="שים לב למספר כללים: \n \nכל שינוי שלך יגרום לשינו בכל נתוני החברה. \n \n גדלים של מוצרים וצבעים חייב להפריד עם פסיקים. \n \n נא לא לשכוח לעדכן את סוג המוצר (אביזרים, מוצרים נלווים, אופניים) \n\n על מנת לחזור להיות משתמש רגיל עליך להסיר את האפליקציה מרקע המכשיר \n\n בהצלחה!!"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@drawable/full_background_orange"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:text="אישור"
+        android:id="@+id/confirm"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+
+        />
+
+</LinearLayout>

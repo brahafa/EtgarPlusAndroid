@@ -1,0 +1,356 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.plus.etgar.etgarapp.fragments.NewProductFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orange_FFA836"
+        android:textSize="16dp"
+        android:text="עריכה או הוספת מוצר"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        >
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:text=""
+            android:id="@+id/code"
+            android:inputType="number"
+            android:lines="1"
+            android:imeOptions="actionNext"
+            android:background="@color/white"
+            android:gravity="right|center_vertical"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="קוד מוצר"
+            android:textColor="@color/orange_FFA836"
+            android:textSize="14dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        >
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:text=""
+            android:id="@+id/name"
+            android:inputType="text"
+            android:lines="1"
+            android:imeOptions="actionNext"
+            android:background="@color/white"
+            android:gravity="right|center_vertical"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="שם מוצר"
+            android:textColor="@color/orange_FFA836"
+            android:textSize="14dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        >
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:text=""
+            android:id="@+id/model"
+            android:inputType="text"
+            android:lines="1"
+            android:imeOptions="actionNext"
+            android:background="@color/white"
+            android:gravity="right|center_vertical"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="דגם"
+            android:textColor="@color/orange_FFA836"
+            android:textSize="14dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        >
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:text="http://www.etgarplus.co.il/wp-content/uploads/"
+            android:inputType="text"
+            android:id="@+id/url"
+            android:imeOptions="actionNext"
+            android:background="@color/white"
+            android:gravity="right|center_vertical"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="קישור לתמונה"
+            android:textColor="@color/orange_FFA836"
+            android:textSize="14dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        >
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:text=""
+            android:inputType="text"
+            android:lines="1"
+            android:id="@+id/colors"
+            android:imeOptions="actionNext"
+            android:background="@color/white"
+            android:gravity="right|center_vertical"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="צבעים"
+            android:textColor="@color/orange_FFA836"
+            android:textSize="14dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:text=""
+            android:inputType="text"
+            android:id="@+id/sizes"
+            android:lines="1"
+            android:imeOptions="actionNext"
+            android:background="@color/white"
+            android:gravity="right|center_vertical"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="מידות"
+            android:textColor="@color/orange_FFA836"
+            android:textSize="14dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        >
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:text=""
+            android:id="@+id/price"
+            android:inputType="number"
+            android:lines="1"
+            android:imeOptions="actionNext"
+            android:background="@color/white"
+            android:gravity="right|center_vertical"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="מחיר"
+            android:textColor="@color/orange_FFA836"
+            android:textSize="14dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        >
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:text="אופניים"
+            android:id="@+id/type"
+            android:editable="false"
+            android:background="@color/white"
+            android:gravity="right|center_vertical"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="סוג מוצר"
+            android:textColor="@color/orange_FFA836"
+            android:textSize="14dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="פרטים נוספים"
+            android:layout_gravity="right"
+            android:textColor="@color/orange_FFA836"
+            android:textSize="14dp"
+            android:layout_marginBottom="12dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:text=""
+            android:layout_weight="1"
+            android:id="@+id/details"
+            android:inputType="textMultiLine"
+            android:background="@color/white"
+            android:gravity="right|top"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="22dp"
+            android:layout_weight="1"
+            android:background="@drawable/full_background_orange"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="מחיקה"
+            android:id="@+id/remove_product"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        android:layout_weight="1"
+        android:background="@drawable/full_background_orange"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/add_product"
+        android:text="הוסף/עדכן"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        />
+    </LinearLayout>
+</LinearLayout>

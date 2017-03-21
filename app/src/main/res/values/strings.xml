@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Etgar Plus</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">שם</string>
+    <string name="address">כתובת</string>
+    <string name="phone">טלפון</string>
+    <string name="more_details">פרטים נוספים</string>
+    <string name="search">חיפוש</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6339381307749382/3499001756</string>
+    <string name="order_details_title"><b> פרטי הזמנה</b></string>
+</resources>
