@@ -16,6 +16,7 @@ public class MainActivity extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //change
         setContentView(R.layout.activity_main);
         MobileAds.initialize(this);
         MobileAds.initialize(getApplicationContext(), "ca-app-pub-6339381307749382~2022268553");
